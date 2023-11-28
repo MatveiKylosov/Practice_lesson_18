@@ -10,7 +10,7 @@
         <Grid Background="#FFFFC500" Height="75" VerticalAlignment="Top">
             <Image Margin="10, 10, 0, 0" Height="55" Width="55" VerticalAlignment="Top" HorizontalAlignment="Left"/>
             <Label Content="Добавить запись" HorizontalAlignment="Left" Margin="70, 10, 0, 0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" Foreground="White"/>
-            <Button Content="Вернуться" HorizontalAlignment="Right" Margin="0, 10, 10, 0" VerticalAlignment="Top" Width="100" Height="25" Click="Button_Click_1"/>
+            <Button Content="Вернуться" HorizontalAlignment="Right" Margin="0, 10, 10, 0" VerticalAlignment="Top" Width="100" Height="25"/>
         </Grid>
 
         <Grid Margin="0, 75, 0, 0">
@@ -34,7 +34,7 @@
                 <Button Click="EditOperation"   Content="Изменить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10, 240, 0, 0"/>
 
                 <Label Content="Подпись:" HorizontalAlignment="Left" Margin="10, 267, 0, 0" VerticalAlignment="Top"/>
-                <Button Content="Добавить: " Margin="0, 0, 5, 10" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Click="Button_Click"/>
+                <Button Content="Добавить: " Margin="0, 0, 5, 10" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75"/>
                 <Image x:Name="image" Margin="10, 298, 10, 37"/>
                 <Label x:Name="labelAllPrice" Content="Общая сумма: 0" HorizontalAlignment="Right" Margin="0, 240, 10, 0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
             </Grid>
@@ -52,7 +52,7 @@
                     <CheckBox Click="ColorsChange" x:Name="LotOfColor" Content="Более 50% цвета" HorizontalAlignment="Left" Margin="177,126,0,0" VerticalAlignment="Top"/>
 
                     <Label Content="Количество:" HorizontalAlignment="Left" Margin="10, 146, 0, 0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="textBoxCount" TextChanged="textBoxCount_TextChanged" PreviewTextInput="TextBox_PreviewTextInput" Height="23" Margin="10,177,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBoxCount" TextChanged="textBoxCount_TextChanged" PreviewTextInput="TextBox_PreviewTextInput" Height="23" Margin="10,177,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
                     <Label Content="Сумма:" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="textBoxPrice" Height="23" Margin="10,236,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
                     <Button x:Name="addOperationButton" Click="AddOperation" Content="Добавить" HorizontalAlignment="Right" Margin="0,264,10,0" VerticalAlignment="Top" Width="75"/>
