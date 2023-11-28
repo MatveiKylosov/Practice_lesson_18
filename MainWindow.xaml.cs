@@ -20,9 +20,22 @@ namespace PrintManagementSystem_Kylosov
     /// </summary>
     public partial class MainWindow : Window
     {
+        Pages.PageWrite pg = new Pages.PageWrite();
+        Pages.PageLog pl = new Pages.PageLog();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void OpenLog(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(pl) ;
+        }
+
+        private void OpenWrite(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(pg);
         }
     }
 }

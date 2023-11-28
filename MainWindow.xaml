@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Запись" Click="OpenWrite"/>
+            <MenuItem Header="Журнал" Click="OpenLog"/>
+        </Menu>
+
+        <Frame x:Name="MainFrame" Margin="0,20,0,0">
+            <Frame.Template>
+                <ControlTemplate TargetType="Frame">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <ContentPresenter Content="{TemplateBinding Content}" />
+                    </Border>
+                </ControlTemplate>
+            </Frame.Template>
+        </Frame>
     </Grid>
 </Window>
