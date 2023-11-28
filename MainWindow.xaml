@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrintManagementSystem_Kylosov"
         mc:Ignorable="d"
-        Title="MainWindow" Height="660" Width="800" MinHeight="620" MinWidth="800" MaxHeight="660" MaxWidth="800">
+        Title="MainWindow" Height="660" Width="810" MinHeight="620" MinWidth="810" MaxHeight="660" MaxWidth="810">
     <Grid>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Запись" Click="OpenWrite"/>

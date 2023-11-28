@@ -156,7 +156,7 @@ namespace PrintManagementSystem_Kylosov.Pages
         {
             TypeOpertationsWindow newTOW = new TypeOpertationsWindow();
             newTOW.typeOperationText = typeOperation.SelectedItem as String;
-            newTOW.typeOperation = typeOperationsList.Find(x => x.name == newTOW.typeOperationText).id;
+            newTOW.typeOperation = typeOperationList.Find(x => x.name == newTOW.typeOperationText).id;
             if (formats.SelectedIndex != -1)
             {
                 newTOW.formatText = formats.SelectedItem as String;
